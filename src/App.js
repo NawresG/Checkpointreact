@@ -1,10 +1,13 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Form from 'react-bootstrap/Form' ;
 import {FormControl,FormSelect, FormGroup, ControlLabel, HelpBlock, Checkbox, Radio, Button} from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import {NavbarBrand,NavLink,Container,Nav,NavDropdown } from "react-bootstrap";
+
 import React from 'react';
+
+import './App.css';
 
 function App() {
   return (
@@ -29,11 +32,11 @@ function App() {
       <Form className="for" >
   <Form.Group className="mb-3 name" controlId="formBasicEmail">
     <Form.Label className='lab'>Email address</Form.Label>
-    <Form.Control className="contr" type="email" placeholder="Enter email" />
+    <Form.Control  type="email" placeholder="Enter email" />
   </Form.Group>
   <Form.Group className="mb-3 name" controlId="formBasicPassword">
     <Form.Label className='lab'>Password</Form.Label>
-    <Form.Control className="contr" type="password" placeholder="Password" />
+    <Form.Control  type="password" placeholder="Password" />
   </Form.Group>
   <Form.Group className="name">
           <Form.Label className='lab'>Enter your age:</Form.Label>
